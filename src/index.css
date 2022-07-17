@@ -35,9 +35,10 @@
 
 .logo-mkj{
     color: #2fffff;
-    width: 60px;
+    width: 50px;
     font-size: 1.8rem;
     font-weight: 600;
+    
 }
 
 .navbar-hover:hover{
@@ -53,3 +54,5 @@
         display: flex;
     }
 }
+
+
