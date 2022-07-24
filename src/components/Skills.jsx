@@ -1,11 +1,12 @@
 import React from 'react';
-
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
+import Git from '../assets/Git.png';
+import Bootstrap from '../assets/bootstraplogo.png';
 
 
 const Skills = () => {
@@ -38,6 +39,14 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
                   <p className='my-4'>GITHUB</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Git} alt="HTML icon" />
+                  <p className='my-4'>GIT</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Bootstrap} alt="HTML icon" />
+                  <p className='my-4'>Bootstrap</p>
               </div>
           </div>
       </div>
