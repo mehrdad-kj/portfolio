@@ -7,13 +7,13 @@ import ImageGallery from '../assets/image-gallery.png';
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f] pt-10'>
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+    <div name='work' className='w-full h-[70%] text-[#C3CEDA] bg-[#071330] pt-10'>
+      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full mt-10'>
         <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#2fffff]'>
+          <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#738FA7]'>
             Work
           </p>
-          <p className='py-6'>// Check out some of my recent work</p>
+          <p className='py-6'>Check out some of my recent work</p>
         </div>
 
 {/* Container */}
@@ -26,21 +26,21 @@ const Work = () => {
             >
             {/* Hover Effects */}
               <div className='opacity-0 group-hover:opacity-100'>
-                <span className='text-xl font-bold text-white tracking-wider'>
-                  React JS. & TailwindCSS
+                <span className='text-xl font-bold text-[#C3CEDA] tracking-wider'>
+                  React Js. & Tailwind
                 </span>
                 <div className='pt-8 text-center'>
                   <a href='https://mehrdad-kj.github.io/Image-Gallery/'
                     target="_blank"
                   >
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#C3CEDA] text-[#0C4160] font-bold text-lg'>
                       Demo
                     </button>
                   </a>
                   <a href='https://github.com/mehrdad-kj/Image-Gallery'
                     target="_blank"
                   >
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#C3CEDA] text-[#0C4160] font-bold text-lg'>
                       Code
                     </button>
                   </a>
@@ -57,21 +57,21 @@ const Work = () => {
             {/* Hover Effects */}
             
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-xl font-bold text-white tracking-wider'>
+              <span className='text-xl font-bold text-[#C3CEDA] tracking-wider'>
                 HTML & CSS & JS Application
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://mehrdad-kj.github.io/Recipe-Website/'
                   target="_blank"
                 >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#C3CEDA] text-[#0C4160] font-bold text-lg'>
                     Demo
                   </button>
                 </a>
                 <a href='https://github.com/mehrdad-kj/Recipe-Website'
                   target="_blank"
                 >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#C3CEDA] text-[#0C4160] font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -85,21 +85,21 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-xl font-bold text-white tracking-wider'>
+              <span className='text-xl font-bold text-[#C3CEDA] tracking-wider'>
               HTML & CSS & JS Application
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://mehrdad-kj.github.io/ToDo-List/'
                   target="_blank"
                 >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#C3CEDA] text-[#0C4160] font-bold text-lg'>
                     Demo
                   </button>
                 </a>
                 <a href='https://github.com/mehrdad-kj/ToDo-List'
                   target="_blank"
                 >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#C3CEDA] text-[#0C4160] font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -115,21 +115,21 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-xl font-bold text-white tracking-wider'>
+              <span className='text-xl font-bold text-[#C3CEDA] tracking-wider'>
                 JS & API Application
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://mehrdad-kj.github.io/Weather-App/'
                   target="_blank"
                 >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#C3CEDA] text-[#0C4160] font-bold text-lg'>
                     Demo
                   </button>
                 </a>
                 <a href='https://github.com/mehrdad-kj/Weather-App'
                   target="_blank"
                 >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#C3CEDA] text-[#0C4160] font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -143,21 +143,21 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-xl font-bold text-white tracking-wider'>
+              <span className='text-xl font-bold text-[#C3CEDA] tracking-wider'>
                 Bootstrap Website
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://mehrdad-kj.github.io/Bootstrap-Website/'
                   target="_blank"
                 >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#C3CEDA] text-[#0C4160] font-bold text-lg'>
                     Demo
                   </button>
                 </a>
                 <a href='https://github.com/mehrdad-kj/Bootstrap-Website'
                   target="_blank"
                 >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#C3CEDA] text-[#0C4160] font-bold text-lg'>
                     Code
                   </button>
                 </a>

@@ -11,12 +11,12 @@ import Bootstrap from '../assets/bootstraplogo.png';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
+    <div name='skills' className='w-full h-[70%] bg-[#071330] text-[#C3CEDA] py-10'>
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full mt-10'>
           <div>
-              <p className='text-4xl font-bold inline border-b-4 border-[#2fffff] '>Skills</p>
-              <p className='py-4'>// These are the technologies I've worked with</p>
+              <p className='text-4xl font-bold inline-block border-b-4 border-[#738FA7] '>Skills</p>
+              <p className='py-4'> These are the technologies I've worked with</p>
           </div>
 
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
