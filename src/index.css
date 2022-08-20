@@ -38,10 +38,26 @@
 }
 
 .logo-mkj{
-    color: #C3CEDA;
+    color: #0BA5BE;
     width: 50px;
     font-size: 1.8rem;
     font-weight: 600;
+    -webkit-transform: skew(-5deg, -5deg) rotate(5deg);
+            transform: skew(-5deg, -5deg) rotate(5deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    text-shadow: 1px 1px #00718F,
+                 2px 2px #00718F,
+                 3px 3px #00718F,
+                 4px 4px #00718F,
+                 5px 5px #00718F,
+                 6px 6px #00718F,
+                 7px 7px #00718F,
+                 8px 8px #013F4E,
+                 9px 9px #013F4E,
+                 10px 10px #013F4E,
+                 11px 11px 15px  rgba(0, 0, 0, 0.5)
+
     
 }
 
