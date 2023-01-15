@@ -19,6 +19,36 @@ const Work = () => {
 {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 mb-20'>
 
+
+          {/* Grid Item */}
+          <div
+              style={{ backgroundImage: `url(${Crypto})` }}
+              className='order-0 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            >
+            {/* Hover Effects */}
+              <div className='opacity-0 group-hover:opacity-100'>
+                <span className='text-xl font-bold text-[#C3CEDA] tracking-wider'>
+                  React Js. & Tailwind
+                </span>
+                <div className='pt-8 text-center'>
+                  <a href='https://mehrdad-kj.github.io/Crypto-Project/'
+                    target="_blank"
+                  >
+                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#C3CEDA] text-[#0C4160] font-bold text-lg'>
+                      Demo
+                    </button>
+                  </a>
+                  <a href='https://github.com/mehrdad-kj/Crypto-Project'
+                    target="_blank"
+                  >
+                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#C3CEDA] text-[#0C4160] font-bold text-lg'>
+                      Code
+                    </button>
+                  </a>
+                </div>
+              </div>
+              </div>
+
             {/* Grid Item */}
             <div
               style={{ backgroundImage: `url(${ImageGallery})` }}
