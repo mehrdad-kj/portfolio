@@ -4,6 +4,7 @@ import Todo from '../assets/todo.png';
 import Weather from '../assets/weather.png';
 import Bootstrap from '../assets/bootstrap.png';
 import ImageGallery from '../assets/image-gallery.png';
+import Cryptobase from '../assets/Cryptobase.png';
 
 const Work = () => {
   return (
@@ -22,7 +23,7 @@ const Work = () => {
 
           {/* Grid Item */}
           <div
-              style={{ backgroundImage: `url(${Crypto})` }}
+              style={{ backgroundImage: `url(${Cryptobase})` }}
               className='order-0 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
             >
             {/* Hover Effects */}
